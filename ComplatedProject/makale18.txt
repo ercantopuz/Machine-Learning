@@ -1,0 +1,51 @@
+COVID-19 virus outbreak forecasting of registered and recovered cases after sixty day lockdown in Italy: A data driven model approach
+Background
+Till 31 March 2020, 105,792 COVID-19 cases were confirmed in Italy including 15,726 deaths which explains how worst the epidemic has affected the country. After the announcement of lockdown in Italy on 9 March 2020, situation was becoming stable since last days of March. In view of this, it is important to forecast the COVID-19 evaluation of Italy condition and the possible effects, if this lock down could continue for another 60 days.
+Methods
+COVID-19 infected patient data has extracted from the Italian Health Ministry website includes registered and recovered cases from mid February to end March. Adoption of seasonal ARIMA forecasting package with R statistical model was done.
+Results
+Predictions were done with 93.75% of accuracy for registered case models and 84.4% of accuracy for recovered case models. The forecasting of infected patients could be reach the value of 182,757, and recovered cases could be registered value of 81,635 at end of May.
+Conclusions
+This study highlights the importance of country lockdown and self isolation in control the disease transmissibility among Italian population through data driven model analysis. Our findings suggest that nearly 35% decrement of registered cases and 66% growth of recovered cases will be possible.
+Z.-L. Chen, Q. Zhang, Y. Lu, Z.M. Guo, X. Zhang, W.J. Zhang, et al.
+Distribution of the COVID-19 epidemic and correlation with population emigration from wuhan, China Chin Med J (Engl). (2020), 10.1097/cm9.0000000000000782
+J.S.M. Peiris, L.L.M. Poon
+Severe Acute respiratory Syndrome (SARS)
+Encyclopedia of virology (2008), 10.1016/B978-012374410-4.00780-9
+Situation reports
+https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports, Accessed 31st Mar 2020
+Which countries are under lockdown - and is it working?
+https://www.telegraph.co.uk/news/2020/03/29/lockdown-countries/, Accessed 31st Mar 2020
+P.L. Delamater, E.J. Street, T.F. Leslie, Y.T. Yang, K.H. Jacobsen
+Complexity of the basic reproduction number (R0)
+Emerg Infect Dis (2019), 10.3201/eid2501.171901
+G. Grasselli, A. Pesenti, M. Cecconi
+Critical care utilization for the COVID-19 outbreak in Lombardy, Italy
+JAMA. (2020), 10.1001/jama.2020.4031
+A.R. Tuite, V. Ng, E. Rees, D. Fisman
+Correspondence Estimation of COVID-19 outbreak size in Italy
+Lancet Infect Dis (2020), 10.1016/S1473-3099(20)30227-9
+K. Kalpakis, D. Gada, V. Puttagunta
+Distance measures for effective clustering of ARIMA time-series
+Proceedings - IEEE international conference on data mining, ICDM. (2001), 10.1109/icdm.2001.989529
+A. Loy, L. Follett, H. Hofmann
+Variations of Q–Q plots: the power of our eyes!
+Am Stat (2016), 10.1080/00031305.2015.1077728
+R.H. Shumway, D.S. Stoffer, R.H. Shumway, D.S. Stoffer
+ARIMA models
+Time series: a data analysis approach using R (2019), 10.1201/9780429273285-5
+P.G. Zhang
+Time series forecasting using a hybrid ARIMA and neural network model
+Neurocomputing (2003), 10.1016/S0925-2312(01)00702-0
+Italy struggled to convince citizens of coronavirus crisis. What can Europe learn? | World news | The Guardian
+https://www.theguardian.com/world/2020/mar/23/a-warning-to-europe-italy-struggle-to-convince-citizens-of-coronavirus-crisis, Accessed 31st Mar 2020
+Novel coronavirus
+http://www.salute.gov.it/portale/nuovocoronavirus/homeNuovoCoronavirus.jsp?lingua&equals;english, Accessed 31st Mar 2020
+S. Spina, F. Marrazzo, M. Migliari, R. Stucchi, A. Sforza, R. Fumagalli
+The response of milan's emergency medical system to the COVID-19 outbreak in Italy
+Lancet (2020), 10.1016/S0140-6736(20)30493-1 C. Christodoulos, C. Michalakelis, D. Varoutas
+Forecasting with limited data: combining ARIMA and diffusion models
+Technol Forecast Soc Change (2010), 10.1016/j.techfore.2010.01.009
+K.W. Hipel, A.I. McLeod
+Time series modelling of water resources and environmental systems
+Time Ser Model water Resour Environ Syst (1994), 10.1016/0022-1694(95)90010-1

@@ -1,0 +1,39 @@
+Applying Lexical Link Analysis to Discover Insights from Public Information on COVID-19
+Ying Zhao, Charles C. Zhou
+SARS-Cov-2, the deadly and novel virus, which has caused a worldwide pandemic and drastic loss of human lives and economic activities. An open data set called the COVID-19 Open Research Dataset or CORD-19 contains large set full text scientific literature on SARS-CoV-2. The Next Strain consists of a database of SARS-CoV-2 viral genomes from since 12/3/2019. We applied an unique information mining method named lexical link analysis (LLA) to answer the call to action and help the science community answer high-priority scientific questions related to SARS-CoV-2. We first text-mined the CORD-19. We also data-mined the next strain database. Finally, we linked two databases. The linked databases and information can be used to discover the insights and help the research community to address high-priority questions related to the SARS-CoV-2’s genetics, tests, and prevention.
+Significance Statement In this paper, we show how to apply an unique information mining method lexical link analysis (LLA) to link unstructured (CORD-19) and structured (Next Strain) data sets to relevant publications, integrate text and data mining into a single platform to discover the insights that can be visualized, and validated to answer the high-priority questions of genetics, incubation, treatment, symptoms, and prevention of COVID-19.
+1.↵COVID-19 Open Research Dataset (CORD-19). 2020. Version 2020-03-13. Retrieved from https://pages.semanticscholar.org/coronavirus-research. doi:10.5281/zenodo.3715506
+2.↵https://techcrunch.com/2020/03/16/coronavirus-machine-learning-cord-19-chan-zuckerberg-ostp
+3.https://www.whitehouse.gov/briefings-statements/call-action-tech-community-new-machine-readable-covid-19-dataset/
+4.↵Nextstrain https://nextstrain.org/ncov207
+5.↵github.com/nextstrain
+6.↵Hadfield et al. (2018), Nextstrain: real-time tracking of pathogen evolution, Bioinformatics (2018)Google Scholar
+7.↵Center for Computational Analysis of Social and Organizational Systems (CASOS). (2009) AutoMap: extract, analyze and represent relational data from texts. Retrieved from http://www.casos.cs.cmu.edu.
+8.↵Girvan, M., and Newman, M. E. J. (2002). Community structure in social and biological net-works. Proceedings of the National Academy of Sciences,” USA, 99(12), 7821–7826.
+9.↵Freeman, L.C. (1979). Centrality in social networks I: conceptual clarification. Social Net-works, 1: 215–239.
+10.↵Brin, S. and Page, L. (1998). The Anatomy of a large-scale hypertextual web search Engine. Computer Networks and ISDN Systems, 30:107–117.
+11.↵Newman, M. E. J. (2003). “Fast algorithm for detecting community structure in networks,” 2003. Retrieved from http://arxiv.org/pdf/cond-mat/0309508.pdf
+12.↵Newman, M. E. J. (2006). Finding community structure in networks using the eigenvectors of matrices. Phys. Rev. E, vol. 74, no. 3.
+13.↵Miller, G. A. (1995). WordNet: a lexical database for English. Communications of the ACM, 38(11).
+14.↵Blei, D., Ng, A. and Jordan, M. (2003). Latent Dirichlet allocation. Journal of Machine Learning Research, 3:993–1022, 2003. Retrieved from http://jmlr.csail.mit.edu/papers/volume3/blei03a/blei03a.pdf.
+15.↵US patent 8,903,756. (2014). System and method for knowledge pattern search from networked agents. 2014. Retrieved from https://www.google.com/patents/US8903756
+16.↵Dumais, S. T., Furnas, G. W., Landauer, T. K. and Deerwester, S. (1988). Using latent semantic analysis to improve information retrieval. In Proceedings of CHI’88: Conference on Human Factors in Computing, 281–285.
+17.↵Hofmann, T. (1999). Probabilistic latent semantic analysis,” In Proceedings of the Fifteenth Conference on Uncertainty in Artificial Intelligence, Stockholm, Sweden.
+	1.	18.↵ T. Dietterich, S. Becker, and Z. GhahramaniNg, A., Jordan, M., and Weiss, Y. (2002). On spectral clustering: analysis and an algorithm. In T. Dietterich, S. Becker, and Z. Ghahramani (Eds.), Advances in Neural In formation Processing Systems 14 (pp. 849–856), (2002). MIT Press. Retrieved from http://ai.stanford.edu/ang/papers/nips01-spectral.pdf
+19.↵Zhao, Y., Zhou, C., and Huang, S. (2019). Theory and use case of game-theoretic lexical link analysis. In the proceedings of the IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM).
+20.↵InXight 1997. Retrieved from http://en.wikipedia.org/wiki/Inxight
+21.↵MUC-7: PAPERS: SYSTEMS - Named Entity Tasks Retrieved from http://www.nlpir.nist.gov/related_projects/muc/proceedings/muc_7_toc.htmlnamed
+22.Yatsko, V. A. and Vishnyakov, T. N. 2007. A method for evaluating modern systems of automatic text summarization. Automatic Documentation and Mathematical Linguistics, 41(3):93–103.
+23.Soergel, D. 1985. Organizing information: Principles of data base and retrieval systems. Orlando, FL: Academic Press.
+24.Turney, P. 2002. Thumbs Up or Thumbs Down? Semantic Orientation Applied to Unsupervised Classification of Reviews. In Proceedings of the Association for Computational Linguistics, pp. 417–424.Google Scholar
+25.↵ Kristina Toutanova and Christopher Manning. 2000. Enriching the knowledge sources used in a maximum entropy part-ofspeech tagger. In EMNLP/VLC 1999, pages 63–71.
+26. C.J. van Rijsbergen, S.E. Robertson and M.F. Porter, 1980. New models in probabilistic information retrieval. London: British Library. (British Library Research and Development Report, no. 5587).
+27.Salton G and Buckley C (1988) Term-weighting approaches in automatic text retrieval. Information Processing & Management 24(5): 513–523. Self-Organization, SO, wiki, retrieved from http://en.wikipedia.org/wiki/Self-organization
+28.Jiampojamarn S and Cercone N (2005) Biological named entity recognition using n-grams and classification methods. In Proceedings of PACLING
+29.Bekkerman R and Allan J (2003) Using Bigrams in Text Categorization. Retrieved from http://people.cs.umass.edu/ronb/papers/bigrams.pdf
+30.N-gram, http://en.wikipedia.org/wiki/N-gram
+31.sciSpaCy https://allenai.github.io/scispacy/
+32.sciBert https://github.com/allenai/scibert
+33.Beltagy, I., Lo, K., Cohan, A. (2019). SciBERT: A Pretrained Language Model for Scientific Text. https://arxiv.org/abs/1903.10676
+34. Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. (2019). BERT: Pretraining of deep bidirectional transformers for language understanding. In NAACL-HLT.
+35.↵Zhao, Y., Zhou C. (2018). A Game-Theoretic Lexical Link Analysis for Discovering High-Value Information from Big Data. In the proceedings the 2018 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining. Barcelona, Spain, 28-31 Aug. 2018 (ASONAM 2018), page 621–625. Retrieved from https://ieeexplore.ieee.org/document/8508317.
